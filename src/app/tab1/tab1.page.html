@@ -14,4 +14,9 @@
   </ion-header>
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  {{location | json}} {{'cont:' + count | json}}
+
+  <button (click)="start()">start</button>
+  <button (click)="stop()">stop</button>
 </ion-content>
