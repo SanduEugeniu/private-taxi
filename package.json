@@ -27,7 +27,7 @@
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
     "@ionic-native/background-geolocation": "^4.20.0",
-    "@ionic-native/geolocation": "^5.36.0",
+    "@ionic-native/local-notifications": "^5.36.0",
     "@ionic/angular": "^6.1.9",
     "@ionic/cordova-builders": "^7.0.0",
     "cordova-browser": "6.0.0",
@@ -87,7 +87,10 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-background-geolocation": {},
-      "cordova-plugin-mauron85-background-geolocation": {}
+      "cordova-plugin-mauron85-background-geolocation": {},
+      "cordova-plugin-geolocation": {
+        "GPS_REQUIRED": "true"
+      }
     },
     "platforms": [
       "browser"
